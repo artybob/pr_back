@@ -1,4 +1,4 @@
-# pr_back 
+# Purchases requests backend
 
 # how to run
 
