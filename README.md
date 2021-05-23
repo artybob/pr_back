@@ -19,8 +19,11 @@ factory(App\Purchase::class, 30)->create()
 /api/purchases
 
 params:
+
 page(optional) - page to show from paginator
+
 sortBy(optional) - table field to sort (must exist in table fields)
+
 desc(optional) - sorting option (desc asc) 1 or 0 
 
 # createPurchase(post) + purchaseData : newPurchase || error
