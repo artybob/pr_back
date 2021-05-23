@@ -13,9 +13,9 @@ docker-compose exec app php artisan tinker
 
 factory(App\Purchase::class, 30)->create()
 
-# api
+# API
 
-fetchPurchases (get) : purchases || error
+# fetchPurchases (get) : purchases || error
 /api/purchases
 
 params:
@@ -23,5 +23,5 @@ page(optional) - page to show from paginator
 sortBy(optional) - table field to sort (must exist in table fields)
 desc(optional) - sorting option (desc asc) 1 or 0 
 
-createPurchase(post) + purchaseData : newPurchase || error
+# createPurchase(post) + purchaseData : newPurchase || error
 /api/purchases
